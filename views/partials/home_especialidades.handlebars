@@ -1,0 +1,107 @@
+<div class="container-fluid fundo-branco container-2">
+  <div class="container">
+    <div>
+        <h1>Sou especializado em</h1>
+    </div>
+    <br>
+    <div class="container-especialidades row">
+      <span class="col-sm-12 col-md-12 col-lg-4 p-2">
+        <span class="especialidade card">
+            <div class="card-body">
+                <div class="titulo-card">
+                    <span class="bolinha-icone">
+                        <img src="/icons/device-desktop.png" alt="Websites">
+                    </span>
+                    <span class="card-title">
+                        <h4>Desenvolvimento de Websites</h4>
+                    </span>
+                </div>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </span>
+      </span>
+      <span class="col-sm-12 col-md-6 col-lg-4 p-2">
+        <span class="especialidade card">
+            <div class="card-body">
+                <div class="titulo-card">
+                    <span class="bolinha-icone">
+                        <img src="/icons/device-heart-monitor.png" alt="Sistemas Web">
+                    </span>
+                    <span class="card-title">
+                        <h4>Sistemas Web</h4>
+                    </span>
+                </div>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </span>
+      </span>
+      <span class="col-sm-12 col-md-6 col-lg-4 p-2">
+        <span class="especialidade card">
+            <div class="card-body">
+                <div class="titulo-card">
+                    <span class="bolinha-icone">
+                        <img src="/icons/device-mobile.png" alt="Mobile">
+                    </span>
+                    <span class="card-title">
+                        <h4>Desenvolvimento Mobile</h4>
+                    </span>
+                </div>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </span>
+      </span>
+    </div>
+  </div>
+</div>
+<style>
+  .container-2 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+  }
+  
+  .container-2 .card {
+    border-radius: 5px;
+    border-width: 0;
+    background-color: #0a4d94;
+    color: white;
+    min-height: 230px;
+  }
+
+  .container-2 .card:hover {
+    cursor: pointer;
+    background-color: #3b75b3;
+  }
+
+  .titulo-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .container-2 .card-text {
+    height: inherit;
+    display: flex;
+    align-items: center;
+  }
+
+  .container-2 .card .bolinha-icone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bs-green);
+    border-radius: 40px;
+    width: 55px !important;
+    height: 55px;
+    margin-bottom: 10px;
+  }
+
+  .container-2 .card img {
+    filter: invert(100%);
+  }
+
+  .container-especialidades img {
+    width: 40px;
+  }
+</style>

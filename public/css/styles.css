@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/roboto.woff") format('woff');
+}
+
+/* * {
+    font-family: "Roboto";
+} */
+  
+body {
+    background-image: url(/fundo.jpg);
+    background-position-y: top;
+    background-attachment: fixed;
+}
